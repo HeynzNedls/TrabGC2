@@ -39,9 +39,10 @@ function Destaques() {
                 <Card>
                     <Card.Img variant="top" src="https://www.animesxis.com.br/wp-content/uploads/2022/08/Blue-Lock-anime-image-450x254.jpg" />
                     <Card.Body>
-                        <Card.Title>..</Card.Title>
+                        <Card.Title>Sobre o App AnimeFlix</Card.Title>
                         <Card.Text>
-                        Curta o seu anime 
+                        O app foi criado para procurar e organizar os seus animes favoritos. Atualize quais episódios já assistiu! <br/>
+                        Ele vai notificar você quando o seu anime favorito lançar um novo episódio para que possa assistir sem se esquecer de que saiu!
                         </Card.Text>
                         <LinkContainer to="/">
                             <Button variant="warning">Baixe o app aqui</Button>
@@ -53,12 +54,12 @@ function Destaques() {
                 <Card>
                     <Card.Img variant="top" src="https://1.bp.blogspot.com/-rT2oIGJKJes/X3JaB6FxH2I/AAAAAAAAom0/000O_JlX3R0UBmiO26M72kvPDyBd-KuywCNcBGAsYHQ/w640-h360/jujutsu-kaisen-anime-divulga-primeiras-imagens-episodio-estreia-armadura-nerd.webp" />
                     <Card.Body>
-                        <Card.Title>..</Card.Title>
+                        <Card.Title>Funcionalides</Card.Title>
                         <Card.Text>
-                        ...
+                        Com uma seleção mais ampla de animes, acesso completo, rapido e fácil.
                         </Card.Text>
                         <LinkContainer to="/funcionalidades">
-                            <Button variant="warning">..</Button>
+                            <Button variant="warning">Ver mais</Button>
                         </LinkContainer>
                     </Card.Body>
                 </Card>
@@ -67,12 +68,12 @@ function Destaques() {
                 <Card>
                     <Card.Img variant="top" src="https://hitsite.com.br/wp-content/uploads/2020/04/yugioh.jpeg" />
                     <Card.Body>
-                        <Card.Title>...</Card.Title>
+                        <Card.Title>Entre em contato</Card.Title>
                         <Card.Text>
-                            ...
+                            Fazemos o maximo pra ajudar no que precisar
                         </Card.Text>
                         <LinkContainer to="/contato">
-                        <Button variant="warning">...</Button>
+                        <Button variant="warning">Entre aqui</Button>
                         </LinkContainer>
                     </Card.Body>
                 </Card>
