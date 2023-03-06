@@ -36,7 +36,7 @@ function AdminSobre() {
 
     return (
         <Container className="conteudo-margin">
-            <h1>Admin Funcionalidades</h1>
+            <h1 className='tituadmif'>Admin Funcionalidades</h1>
             <hr />
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="text">

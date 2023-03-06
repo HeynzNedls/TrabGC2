@@ -25,7 +25,7 @@ function Funcionalidades() {
         <>
             <Banners />
             <Container className="conteudo-margin">
-                <h1>Funcionalidades</h1><hr />
+                <h1 className='functit'>Funcionalidades</h1><hr />
 
                 <p>..</p>
 

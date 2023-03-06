@@ -25,7 +25,7 @@ function Login() {
 
     return (
         <Container className='conteudo-margin'>
-        <h1>Login</h1>
+        <h1 className='titlg' >Login</h1>
 
         <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="Email">
@@ -38,7 +38,7 @@ function Login() {
                 </Form.Group>
 
                 <Button variant="primary" type="submit">
-                    Realizar Login
+                    Entrar
                 </Button>
             </Form>
 

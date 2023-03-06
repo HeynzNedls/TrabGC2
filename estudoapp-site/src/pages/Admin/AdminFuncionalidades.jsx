@@ -101,10 +101,10 @@ function AdminFuncionalidades() {
 
         const response = await CmsApi().patchFuncionalidade({id: id, nome: inputNome.value,idioma: inputIdioma.value, temporada: inputtemporada.value, ano: inputAno.value})
         if(!response.ok) {
-            alert('Erro ao editar livro')
+            alert('Erro ao editar anime')
             return
         }
-        alert('Livro editado com sucesso')
+        alert('anime editado com sucesso')
         
         colunaNome.innerText = inputNome.value
         colunaIdioma.innerText = inputIdioma.value
@@ -120,13 +120,13 @@ function AdminFuncionalidades() {
 
     return (
         <Container className="conteudo-margin">
-            <h1>Admin Funcionalidades</h1>
+            <h1 className='titladmfun'>Admin Funcionalidades</h1>
             <hr />
-            <h2>Adicionar Livros</h2>
+            <h2 className='titladmfun'>Adicionar Anime</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="nome">
                     <Form.Label>Nome</Form.Label>
-                    <Form.Control type="text" placeholder="Digite o nome do livro" />
+                    <Form.Control type="text" placeholder="Digite o nome do anime" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="idioma">
                     <Form.Label>Idioma</Form.Label>
@@ -138,7 +138,7 @@ function AdminFuncionalidades() {
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="ano">
                     <Form.Label>Ano</Form.Label>
-                    <Form.Control type="text" placeholder="Digite o ano do livro" />
+                    <Form.Control type="text" placeholder="Digite o ano do anime" />
                 </Form.Group>
                 <Button variant="primary" type="submit">
                     Cadastrar

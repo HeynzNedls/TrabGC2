@@ -76,6 +76,10 @@ html, body, #root{
 .texcont, .textitulo , .formcont{
     color: white;
 }
+.textitulo{
+    color: white;
+    text-decoration: underline cyan;
+}
 
 /*Contato fim*/
 
@@ -84,8 +88,28 @@ html, body, #root{
 .conteudo-margin{
     color: white;
 }
+.functit{
+    color: white;
+    text-decoration: underline cyan;
+}
 /*Funcionalidade fim*/
 
+/*Adm Funcionalidade*/
+
+.titladmfun{
+    color: white;
+    text-decoration: underline cyan;
+}
+
+/*Adm Funcionalidade fim*/
+
+/*Adm sobre*/
+
+.tituadmif{
+    color: white;
+    text-decoration: underline cyan;
+}
+/*Adm sobre fim*/
 /*Depoimento*/
 
 .mt-3{
@@ -103,3 +127,10 @@ html, body, #root{
     border-radius: 50px;
 }
 /*Depoimento Fim*/
+
+/*Login*/
+.titlg{
+    color: white;
+    text-decoration: underline cyan;
+}
+/*Login fim*/
