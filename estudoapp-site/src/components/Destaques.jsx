@@ -16,7 +16,7 @@ function Destaques() {
                                 Acesso a perfis individuais <br/>
                                 Possibilidade de bloquear conteúdo inapropriado para crianças <br/>
                                 Download ilimitado de episódios </p>
-        <a href="#" class="btn btn-primary">Assine aqui</a>
+        <a href="#" class="btn btn-info">Assine aqui</a>
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@ function Destaques() {
                                 Exclusividade de animes selecionados <br/>
                                 Acesso a eventos de anime exclusivos <br/>
                                 Download ilimitado de episódios</p>
-        <a href="#" class="btn btn-primary">Assine aqui</a>
+        <a href="#" class="btn btn-info">Assine aqui</a>
       </div>
     </div>
   </div>
@@ -45,7 +45,7 @@ function Destaques() {
                         Ele vai notificar você quando o seu anime favorito lançar um novo episódio para que possa assistir sem se esquecer de que saiu!
                         </Card.Text>
                         <LinkContainer to="/">
-                            <Button variant="warning">Baixe o app aqui</Button>
+                            <Button variant="info">Baixe o app aqui</Button>
                         </LinkContainer>
                     </Card.Body>
                 </Card>
@@ -59,7 +59,7 @@ function Destaques() {
                         Com uma seleção mais ampla de animes, acesso completo, rapido e fácil.
                         </Card.Text>
                         <LinkContainer to="/funcionalidades">
-                            <Button variant="warning">Ver mais</Button>
+                            <Button variant="info">Ver mais</Button>
                         </LinkContainer>
                     </Card.Body>
                 </Card>
@@ -73,7 +73,7 @@ function Destaques() {
                             Fazemos o maximo pra ajudar no que precisar
                         </Card.Text>
                         <LinkContainer to="/contato">
-                        <Button variant="warning">Entre aqui</Button>
+                        <Button variant="info">Entre aqui</Button>
                         </LinkContainer>
                     </Card.Body>
                 </Card>
