@@ -21,7 +21,9 @@ function Sobre() {
 
             <h2>.</h2>
 
-            <p>..</p>
+            <p>Olá, jovem otaku! Seja bem-vindo(a) ao nosso site de compartilhamento de mangás! Eu sempre fui uma grande 
+                fã desse mundo fantástico dos quadrinhos japoneses, e por isso, tive a ideia de criar essa plataforma para 
+                que todos possam ter acesso gratuito aos seus mangás favoritos.</p>
 
             <p>..</p>
 
