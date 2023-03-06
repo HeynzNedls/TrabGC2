@@ -1,0 +1,105 @@
+html, body, #root{
+    background-color: black;
+}
+
+.conteudo-margin {
+    margin-top: 55px;
+}
+
+.active.nav-link {
+    color: cyan !important;
+    border-bottom: 1px solid white !important;
+}
+
+.nav-link{
+    border-bottom: 3px solid transparent;
+}
+.titlehm1{
+    color: white;
+    text-decoration: overline cyan;
+}
+.titlehm{
+    color: cyan;
+    text-decoration: underline white;
+}
+/* Calendario */
+
+.col-8{
+    height: 300px;
+    overflow-y: scroll;
+}
+.tituc , .textcl{
+    color: white;
+}
+
+/* Calendario Fim*/
+
+/* Botao de subir pagina */
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 5%;
+    z-index: 1;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: cyan;
+    background-color: rgb(10, 8, 4);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transform: translateX(50%);
+}
+  
+.back-to-top:before {
+    content: "";
+    border: solid cyan;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    border-color: cyan;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+  
+.back-to-top:hover {
+    background-color: white;
+}
+
+/* Botao de subir pagina Fim */
+
+/*Rodape*/
+
+/*Rodape Fim */
+
+/*Contato*/
+.texcont, .textitulo , .formcont{
+    color: white;
+}
+
+/*Contato fim*/
+
+
+/*Funcionalidade*/
+.conteudo-margin{
+    color: white;
+}
+/*Funcionalidade fim*/
+
+/*Depoimento*/
+
+.mt-3{
+    text-decoration: 4px underline;
+}
+.dep1{
+    margin-left: 360px;
+    border-radius: 50px;
+}
+.dep2{
+    border-radius: 50px;
+}
+.dep3{
+    margin-left: 360px;
+    border-radius: 50px;
+}
+/*Depoimento Fim*/
