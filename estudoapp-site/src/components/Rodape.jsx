@@ -22,11 +22,9 @@ function Rodape() {
 </div>
 <button className="back-to-top" onClick={handleBackToTop}>
             <i className="fas fa-arrow-up"></i>
-            
-          </button>
+</button>
     </Container>
   );
 }
 
 export default Rodape;
-
