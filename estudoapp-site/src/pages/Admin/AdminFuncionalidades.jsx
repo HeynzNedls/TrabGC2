@@ -134,7 +134,7 @@ function AdminFuncionalidades() {
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="temporada">
                     <Form.Label>Temporada</Form.Label>
-                    <Form.Control type="text" placeholder="Digite a quantidade de páginas" />
+                    <Form.Control type="text" placeholder="Digite a temporada do anime" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="ano">
                     <Form.Label>Ano</Form.Label>
