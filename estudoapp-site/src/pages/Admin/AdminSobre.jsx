@@ -43,7 +43,7 @@ function AdminSobre() {
                     <Form.Label>Conteúdo da página Sobre</Form.Label>
                     <Form.Control as="textarea" rows={3} value={sobre.text} onChange={handleTextChange} />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button variant="info" type="submit">
                     Atualizar o texto
                 </Button>
             </Form>            

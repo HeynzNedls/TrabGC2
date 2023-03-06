@@ -19,34 +19,25 @@ function Sobre() {
     return (
         <Container className='conteudo-margin'>
 
-            <h2>.</h2>
+        <h1>Sobre</h1> 
+            <hr />
 
-            <p>Olá, jovem otaku! Seja bem-vindo(a) ao nosso site de compartilhamento de mangás! Eu sempre fui uma grande 
-                fã desse mundo fantástico dos quadrinhos japoneses, e por isso, tive a ideia de criar essa plataforma para 
-                que todos possam ter acesso gratuito aos seus mangás favoritos.</p>
+            <p>Olá, jovem otaku! Seja bem-vindo(a) ao nosso site de streaming de anime.</p>
 
-            <p>..</p>
+            <p>Nós sabemos que nem sempre é fácil encontrar aquele anime que tanto deseja assistir. E é por isso que criamos 
+                este site e o app, onde você pode encontrar diversos tipos de anime, todos em um só lugar e de 
+                fácil acesso e tendo so 1h de atraso.</p>
 
-            <p>..</p>
+            <p>Aqui no nosso site, valorizamos não apenas os animes, mas também a interação entre os fãs. Por isso, para fazer 
+                parte da nossa comunidade, é preciso se cadastrar e compartilhar suas experiências com outros usuários. Você pode contar 
+                seu anime da temporada preferio, trocar dicas e curiosidades sobre o universo dos animes, e até mesmo encontrar novos amigos que 
+                compartilham da sua paixão.</p>
 
-            <p>..</p><hr /><br />
-
-
-            <h1>Sobre</h1> <hr />
-
-            <p>..</p>
-
-            <p>..</p>
-
-            <p>..</p>
-
-            <p>..</p>
-
-            <p>..</p><br/><br/><br/>
-
-
-
-
+            <p>Estamos sempre em busca de novas formas de aprimorar nossa plataforma e torná-la cada vez mais útil e acessível para todos. 
+                Então, espero que você possa desfrutar de todas as funcionalidades do site e do app e encontrar os animes que procura para se 
+                divertir nesse universo dos animes.</p>
+                
+                <hr />
 
             <p>{sobre.text}</p>
             <Depoimentos />

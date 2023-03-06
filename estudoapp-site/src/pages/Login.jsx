@@ -37,7 +37,7 @@ function Login() {
                     <Form.Control type="password" placeholder="Digite sua senha" />
                 </Form.Group>
 
-                <Button variant="primary" type="submit">
+                <Button variant="info" type="submit">
                     Entrar
                 </Button>
             </Form>

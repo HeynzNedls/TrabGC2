@@ -28,7 +28,7 @@ function Contato() {
                     <Form.Label className='formcont'>Mensagem</Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
-                <Button className='butcont' variant="primary" type="submit">
+                <Button className='butcont' variant="info" type="submit">
                     Enviar
                 </Button>
             </Form>

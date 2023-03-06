@@ -140,7 +140,7 @@ function AdminFuncionalidades() {
                     <Form.Label>Ano</Form.Label>
                     <Form.Control type="text" placeholder="Digite o ano do anime" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button variant="info" type="submit">
                     Cadastrar
                 </Button>
             </Form>
@@ -166,7 +166,7 @@ function AdminFuncionalidades() {
                             <td>{funcionalidade.temporada}</td>
                             <td>{funcionalidade.ano}</td>
                             <td>
-                                <Button variant="primary" onClick={(event) => {habilitarEdicao(event.target, funcionalidade.id)}}>Editar</Button>
+                                <Button variant="info" onClick={(event) => {habilitarEdicao(event.target, funcionalidade.id)}}>Editar</Button>
                                  | 
                                  <Button variant="danger" onClick={() => {excluirFuncionalidade(funcionalidade.id)}}>Excluir</Button>
                             </td>
