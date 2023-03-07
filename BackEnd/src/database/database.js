@@ -1,5 +1,5 @@
 const sqlite = require("sqlite3").verbose();
-const DB_SOURCE = "src/config/database/database.sqlite";
+const DB_SOURCE = "src/database/database.sqlite";
 
 const ANIMES = `
 CREATE TABLE IF NOT EXISTS animes(

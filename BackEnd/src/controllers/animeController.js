@@ -1,6 +1,6 @@
-const database = require("../../config/database/database");
+const database = require("../database/database");
 
-const AnimeDAO = require("../../config/DAO/AnimeDAO");
+const AnimeDAO = require("../DAO/AnimeDAO");
 const { request } = require("express");
 const animesDAO = new AnimeDAO(database);
 
