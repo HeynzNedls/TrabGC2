@@ -149,12 +149,12 @@ function AdminFuncionalidades() {
             <Table striped hover>
                 <thead>
                     <tr>
-                        <th>Id</th>
-                        <th>Nome</th>
-                        <th>Idioma</th>
-                        <th>Temporada</th>
-                        <th>Ano</th>
-                        <th>Opções</th>
+                        <th className='admfuad'>Id</th>
+                        <th className='admfuad'>Nome</th>
+                        <th className='admfuad'>Idioma</th>
+                        <th className='admfuad'>Temporada</th>
+                        <th className='admfuad'>Ano</th>
+                        <th className='admfuad'>Opções</th>
                     </tr>
                 </thead>
                 <tbody>
