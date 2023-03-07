@@ -19,7 +19,7 @@ function Sobre() {
     return (
         <Container className='conteudo-margin'>
 
-        <h1>Sobre</h1> 
+        <h1 className='sbtext'>Sobre</h1> 
             <hr />
 
             <p>Olá, jovem otaku! Seja bem-vindo(a) ao nosso site de streaming de anime.</p>

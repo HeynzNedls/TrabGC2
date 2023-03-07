@@ -110,10 +110,20 @@ html, body, #root{
     text-decoration: underline cyan;
 }
 /*Adm sobre fim*/
+
+/*sobre*/
+
+.sbtext{
+    color: white;
+    text-decoration: underline cyan;
+}
+
+/*sobre fim*/
+
 /*Depoimento*/
 
 .mt-3{
-    text-decoration: 4px underline;
+    text-decoration: 4px underline cyan;
 }
 .dep1{
     margin-left: 360px;
