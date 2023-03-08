@@ -5,6 +5,7 @@
   npm init -y <br/>
   npm install nodemon --save-dev <br/>
   npm install bcrypt cors express sqlite sqlite3 <br/>
+   <hr/>
    bcrypt: Armazena e compara senhas de forma segura <br/>
    nodemon: Monitora os o projeto e reinicia o servidor quando salvamos um arquivo (hot reload) <br/>
    sqlite: Biblioteca auxiliar para utilizar o sqlite3 com Promises <br/>
@@ -12,7 +13,11 @@
    express: Servidor HTTP
    
  # Dependências Front End
- <hr/>
+ 
   npm install react-bootstrap bootstrap <br/>
   npm install react-router-dom <br/>
   npm install react-router-bootstrap <br/>
+
+# Grupo
+
+Rodrigo, Monyck, Danilo
