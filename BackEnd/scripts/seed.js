@@ -1,7 +1,7 @@
 import { hashSync } from "bcrypt"
 
 import Page from "../src/DAO/Page.js"
-import Anime from "../src/DAO/Anime.js"
+import Anime from "../src/DAO/AnimeDAO.js"
 import User from "../src/DAO/User.js"
 
 const models = [
